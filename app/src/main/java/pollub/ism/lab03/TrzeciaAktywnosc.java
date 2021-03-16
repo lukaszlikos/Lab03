@@ -32,6 +32,7 @@ public class TrzeciaAktywnosc extends AppCompatActivity {
 
     public void zadzwon(View view){
 
+
         Intent intencja = new Intent(Intent.ACTION_DIAL);
 
         intencja.setData(Uri.parse("tel:" + 226952900));
